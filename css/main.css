@@ -142,6 +142,7 @@ section {
 .splash .splash-container {
   text-align: center;
   position: relative;
+  background-size: cover;
   color: white;
 }
 
@@ -149,13 +150,17 @@ section {
   text-decoration: none;
 }
 
-.splash .science:hover,
-.splash .science:focus {
+.splash .science {
+  background-image: url("../images/science.jpg");
+}
+
+.splash .science-text:hover,
+.splash .science-text:focus {
   color: #9ae19d;
 }
 
-.splash .photography:hover,
-.splash .photography:focus {
+.splash .photography-text:hover,
+.splash .photography-text:focus {
   color: #ef5b5b;
 }
 
@@ -165,10 +170,7 @@ section {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-.splash .science {
-  background-image: url("../images/science.jpg");
+  color: white;
 }
 
 .splash .photography {
