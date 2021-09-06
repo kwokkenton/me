@@ -316,15 +316,20 @@ section {
 
 @media only screen and (min-width: 800px) {
   .featured {
-    text-align: left;
     padding-left: 7em;
     padding-right: 7em;
+    text-align: left;
   }
   .featured {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 45% auto;
         grid-template-columns: 45% auto;
+  }
+  .other {
+    padding-left: 7em;
+    padding-right: 7em;
+    text-align: left;
   }
   .left {
     display: -ms-grid;
@@ -369,6 +374,10 @@ section {
     padding: 0 2em;
   }
   .featured {
+    padding-left: 12em;
+    padding-right: 12em;
+  }
+  .other {
     padding-left: 12em;
     padding-right: 12em;
   }
